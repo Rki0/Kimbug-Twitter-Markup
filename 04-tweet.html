@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Write a Tweet</h1>
+      <form action="#" method="post">
+        <img src="#" alt="@user" />
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          maxlength="280"
+          placeholder="What's happening?"
+        ></textarea>
+
+        <button type="button" aria-label="Upload files">
+          <!--icon-->
+          <!--input 태그는 꾸밀 수 없으므로 별도로 button을 만들어 줌.-->
+        </button>
+        <input type="file" multiple accept="image/*, video/*" />
+        <!--multiple 속성은 다양한 파일을 등록할 수 있게 해줌.-->
+        <!--image/* 이렇게 작성하면 이미지 파일의 모든 형식을 허용한다는 뜻.-->
+
+        <button type="button" aria-label="Choose GIFs...">
+          <!--icon-->
+        </button>
+
+        <button type="button" aria-label="Create a poll">
+          <!--icon-->
+        </button>
+
+        <button type="button" aria-label="Choose emoji">
+          <!--icon-->
+        </button>
+
+        <strong aria-label="0 out of 280 characters"> </strong>
+
+        <button type="button" aria-label="add another tweet">
+          <!--icon-->
+        </button>
+
+        <button type="submit" aria-label="Submit Tweet">Tweet</button>
+      </form>
+    </section>
+  </body>
+</html>
